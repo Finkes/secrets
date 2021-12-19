@@ -10,7 +10,7 @@ Secrets for CI/CD etc. using plain OpenSSL
 ### Adding/Removing secrets
 1. (optional) create a folder for your secret domain `secrets/`
 2. add/remove your secret files to your folder
-3. run ./encrypt <your_password>
+3. run `./encrypt.sh <your_password>`
 4. git commit
 
 ### Fetching secrets
